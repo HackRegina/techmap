@@ -1,0 +1,22 @@
+<div class="row">
+  <ul class="list-group list-group-flush col-12 pr-0">
+    <li class="list-group-item sticky-top">
+      <a class="col-2" [routerLink]="['/']">
+        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+      </a>
+      <div class="col-10">
+        <div class="font-weight-bold">{{tech}}</div>
+        <small>{{companyService.companies.length}} companies</small>
+      </div>
+    </li>
+    <li *ngFor="let company of companyService.companies" class="list-group-item" (click)="selectCompany(company)">
+      <div class="col-2 pull-left">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+      </div>
+      <div class="col-10">
+        <div><a [routerLink]="['/company',company.id]">{{company.name}}</a></div>
+        <small>{{company.address}}</small>
+      </div>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,8 @@
+<ul class="list-group list-group-flush">
+  <li *ngFor="let tech of techs" class="list-group-item">
+    <a [routerLink]="['/tech', tech]">
+      <i class="fa fa-code" aria-hidden="true"></i>
+      &nbsp;{{tech}}
+    </a>
+  </li>
+</ul>

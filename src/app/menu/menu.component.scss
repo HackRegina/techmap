@@ -1,0 +1,25 @@
+.card {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 45vh;
+  width: 100%;
+  z-index: 9999;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+@media (min-width: 1200px) {
+  .card {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    bottom: 30px;
+    z-index: 9999;
+    width: 25%;
+    height: -webkit-calc(100% - 60px);
+    height: -moz-calc(100% - 60px);
+    height: calc(100% - 60px);
+  }
+}
