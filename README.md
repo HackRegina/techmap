@@ -2,6 +2,8 @@
 
 A map of Regina's tech companies and the technologies they use. 
 
+Check it out here: https://hackregina.github.io/techmap/#/
+
 #### Adding your company to the list
 
 Just add your company to the file `src/assets/data.json` and create a pull request. We will do the rest! 
