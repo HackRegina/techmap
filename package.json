@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href \"/regina-tech-map/\""
+    "deploy": "ng build --prod --base-href \"/techmap/\""
   },
   "private": true,
   "dependencies": {
