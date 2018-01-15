@@ -28,5 +28,20 @@
       "Java",
       "SAP"
     ]
+  },
+  {
+    "id": "offstreet",
+    "name": "Offstreet Technology",
+    "industry": "",
+    "address": "5 Asgar Walk\nRegina,SK.\nS4S 6W4",
+    "lat": 50.4036204,
+    "lng": -104.6281632,
+    "technology": [
+      "Angular",
+      "Typescript",
+      "express.js",
+      "Node.js",
+      "AWS"
+    ]
   }
 ]
