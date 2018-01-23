@@ -44,5 +44,43 @@
       "Node.js",
       "AWS"
     ]
+  },
+  {
+    "id": "iqmetrix",
+    "name": "iQmetrix",
+    "website": "http://www.iqmetrix.com/",
+    "industry": "Wireless Retail Management Software",
+    "address": "700-1801 Hamilton St\nRegina,SK.\nS4P 4B4",
+    "lat": 50.450098,
+    "lng": -104.609090,
+    "technology": [
+      ".NET",
+      "Azure",
+      "SQL Server",
+      "Azure storage",
+      "Node.js",
+      "Typescript"
+    ]
+  },
+  {
+    "id": "covasoftware",
+    "name": "Cova Software",
+    "website": "http://www.covasoftware.com/",
+    "industry": "Cannabis Dispensary Retail Software",
+    "address": "700-1801 Hamilton St\nRegina,SK.\nS4P 4B4",
+    "lat": 50.450098,
+    "lng": -104.609090,
+    "technology": [
+      ".NET",
+      "Azure app services/functions",
+      "Azure service bus",
+      "Azure blob/table storage",
+      "Android",
+      "Java",
+      "MongoDb",
+      "SQL Server",
+      "Node.js",
+      "Typescript"
+    ]
   }
 ]
