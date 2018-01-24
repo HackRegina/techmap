@@ -1,5 +1,5 @@
-import {Component, OnInit} from '@angular/core';
-import {CompanyService} from "../company.service";
+import { Component, OnInit } from '@angular/core'
+import { CompanyService } from '../company.service'
 
 @Component({
   selector: 'app-tech-list',
@@ -8,14 +8,14 @@ import {CompanyService} from "../company.service";
 })
 export class TechListComponent implements OnInit {
 
-  techs;
+  techs
 
-  constructor(private companyService: CompanyService) {
+  constructor (private companyService: CompanyService) {
   }
 
-  ngOnInit() {
-    this.companyService.init();
-    this.techs = this.companyService.techs;
+  ngOnInit () {
+    this.companyService.init()
+    this.techs = this.companyService.techs.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
   }
 
 }
