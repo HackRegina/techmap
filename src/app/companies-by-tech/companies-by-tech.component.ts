@@ -19,9 +19,4 @@ export class CompaniesByTechComponent implements OnInit {
     this.tech = this.route.snapshot.paramMap.get('tech');
     this.companyService.filterByTech(this.tech);
   }
-
-
-  selectCompany(company) {
-
-  }
 }

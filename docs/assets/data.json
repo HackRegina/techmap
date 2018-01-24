@@ -8,10 +8,10 @@
     "lat": 50.443612,
     "lng": -104.611938,
     "technology": [
-      "AngularJs",
       "Angular",
-      "Java",
+      "AngularJs",
       "Go",
+      "Java",
       "Node.js"
     ]
   },
@@ -23,8 +23,8 @@
     "lat": 50.4500274,
     "lng": -104.6119856,
     "technology": [
-      "AngularJs",
       "Angular",
+      "AngularJs",
       "Java",
       "SAP"
     ]
@@ -40,7 +40,7 @@
     "technology": [
       "Angular",
       "Typescript",
-      "express.js",
+      "Express.js",
       "Node.js",
       "AWS"
     ]
@@ -57,7 +57,6 @@
       ".NET",
       "Azure",
       "SQL Server",
-      "Azure storage",
       "Node.js",
       "Typescript"
     ]
@@ -72,14 +71,12 @@
     "lng": -104.609090,
     "technology": [
       ".NET",
-      "Azure app services/functions",
-      "Azure service bus",
-      "Azure blob/table storage",
       "Android",
+      "Azure",
       "Java",
       "MongoDb",
-      "SQL Server",
       "Node.js",
+      "SQL Server",
       "Typescript"
     ]
   }

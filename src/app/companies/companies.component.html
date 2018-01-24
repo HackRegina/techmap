@@ -1,23 +1,23 @@
 <div class="card-header">
   <div class="row">
     <div class="col-1">
-      <i class="fa fa-arrow-left" aria-hidden="true" [routerLink]="['/tech']"></i>
+      <i class="fa fa-arrow-left" aria-hidden="true" [routerLink]="['/']"></i>
     </div>
     <div class="col-10">
-      <div>{{tech}}</div>
+      <div>Companies</div>
       <small>{{companyService.companies.length}} companies</small>
     </div>
   </div>
 </div>
-<ul class="list-group list-group-flush col-12 pr-0">
-  <li *ngFor="let company of companyService.companies" class="list-group-item list-group-item-action"
-      [routerLink]="['/tech',tech,company.id]">
+<ul class="list-group list-group-flush">
+  <li *ngFor="let company of companies" class="list-group-item list-group-item-action"
+      [routerLink]="['/companies', company.id]">
     <div class="row">
       <div class="col-1">
         <i class="fa fa-building-o" aria-hidden="true"></i>
       </div>
       <div class="col-10">
-        <div>{{company.name}}</div>
+        {{company.name}}
       </div>
     </div>
   </li>

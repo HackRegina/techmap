@@ -1,19 +1,20 @@
-import {BrowserModule} from '@angular/platform-browser';
-import {NgModule} from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser'
+import { NgModule } from '@angular/core'
 
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
 
-import {AppComponent} from './app.component';
-import {AgmCoreModule} from "@agm/core";
-import {MapComponent} from './map/map.component';
-import {MenuComponent} from './menu/menu.component';
-import {CompanyService} from "./company.service";
-import {RouterModule} from "@angular/router";
-import {TechListComponent} from './tech-list/tech-list.component';
-import {CompaniesByTechComponent} from './companies-by-tech/companies-by-tech.component';
-import {HashLocationStrategy, LocationStrategy} from "@angular/common";
-import {CompanyComponent} from './company/company.component';
-
+import { AppComponent } from './app.component'
+import { AgmCoreModule } from '@agm/core'
+import { MapComponent } from './map/map.component'
+import { MenuComponent } from './menu/menu.component'
+import { CompanyService } from './company.service'
+import { RouterModule } from '@angular/router'
+import { TechListComponent } from './tech-list/tech-list.component'
+import { CompaniesByTechComponent } from './companies-by-tech/companies-by-tech.component'
+import { HashLocationStrategy, LocationStrategy } from '@angular/common'
+import { CompanyComponent } from './company/company.component'
+import { FilterByComponent } from './filter-by/filter-by.component'
+import { CompaniesComponent } from './companies/companies.component'
 
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import {CompanyComponent} from './company/company.component';
     MenuComponent,
     TechListComponent,
     CompaniesByTechComponent,
-    CompanyComponent
+    CompanyComponent,
+    FilterByComponent,
+    CompaniesComponent
   ],
   imports: [
     BrowserModule,
@@ -31,9 +34,12 @@ import {CompanyComponent} from './company/company.component';
       apiKey: 'AIzaSyCs-qU03I53l6ApyEB7c7MXzm06SGr2SHU'
     }),
     RouterModule.forRoot([
-      {path: '', component: TechListComponent},
+      {path: '', component: FilterByComponent},
+      {path: 'tech', component: TechListComponent},
       {path: 'tech/:tech', component: CompaniesByTechComponent},
-      {path: 'company/:id', component: CompanyComponent},
+      {path: 'tech/:tech/:id', component: CompanyComponent},
+      {path: 'companies', component: CompaniesComponent},
+      {path: 'companies/:id', component: CompanyComponent},
       // {path: 'forms/:formId', component: ManageFormComponent, resolve: {form: ManageFormResolver}},
       {path: '**', redirectTo: ''}
     ])

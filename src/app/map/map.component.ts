@@ -1,6 +1,6 @@
-import {Component, OnInit} from '@angular/core';
-import {CompanyService} from "../company.service";
-import {Router} from "@angular/router";
+import { Component, OnInit } from '@angular/core'
+import { CompanyService } from '../company.service'
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-map',
@@ -9,19 +9,18 @@ import {Router} from "@angular/router";
 })
 export class MapComponent implements OnInit {
 
-  lat = 50.4528734;
-  lng = -104.6174372;
-  zoom = 13;
+  lat = 50.443612
+  lng = -104.611938
+  zoom = 12
 
-
-  constructor(public companyService: CompanyService, private router: Router) {
+  constructor (public companyService: CompanyService, private router: Router) {
   }
 
-  ngOnInit() {
+  ngOnInit () {
   }
 
-  goto(id) {
-    this.router.navigate(['/company', id]);
+  goto (id) {
+    this.router.navigate(['/companies', id])
   }
 
 }

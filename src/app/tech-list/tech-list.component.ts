@@ -10,7 +10,7 @@ export class TechListComponent implements OnInit {
 
   techs
 
-  constructor (private companyService: CompanyService) {
+  constructor (public companyService: CompanyService) {
   }
 
   ngOnInit () {
