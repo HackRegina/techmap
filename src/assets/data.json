@@ -79,5 +79,25 @@
       "SQL Server",
       "Typescript"
     ]
+  },
+  {
+    "id": "bitcutter",
+    "name": "BitCutter Studios",
+    "website": "https://www.bitcutter.com/",
+    "industry": "Game Development",
+    "address": "1412 N Benjamin Crescent\nRegina SK.\nS4X 4L3",
+    "lat": 50.501020,
+    "lng": -104.663479,
+    "technology": [
+      "Unity",
+      "Maya",
+      "Substance",
+      "C#",
+      "Node.js",
+      "Ruby",
+      "Ruby on Rails",
+      "Java",
+      "Adobe Suite"
+    ]
   }
 ]
