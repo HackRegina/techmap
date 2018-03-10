@@ -12,7 +12,11 @@
       "AngularJs",
       "Go",
       "Java",
-      "Node.js"
+      "Node.js",
+      "Terraform",
+      "Nomad",
+      "Consul",
+      "Docker"
     ]
   },
   {
