@@ -10,13 +10,13 @@
     "technology": [
       "Angular",
       "AngularJs",
+      "Consul",
+      "Docker",
       "Go",
       "Java",
       "Node.js",
-      "Terraform",
       "Nomad",
-      "Consul",
-      "Docker"
+      "Terraform"
     ]
   },
   {
