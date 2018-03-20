@@ -113,13 +113,13 @@
     "lat": 50.445638,
     "lng": -104.412405,
     "technology": [
-      "Python",
-      "C/C++",
+      "AWS",
       "C#",
+      "C/C++",
       "JavaScript",
       "Node.js",
-      "AWS",
-      "OpenCV"
+      "OpenCV",
+      "Python"
     ]
   }
 ]
