@@ -103,5 +103,23 @@
       "Java",
       "Adobe Suite"
     ]
+  },
+  {
+    "id": "dot",
+    "name": "Dot Technology Corp.",
+    "website": "https://www.seedotrun.com/",
+    "industry": "Autonomous Agriculture",
+    "address": "1 South Plains Road West\nEmerald Park,SK.\nS4L 1C6",
+    "lat": 50.445638,
+    "lng": -104.412405,
+    "technology": [
+      "Python",
+      "C/C++",
+      "C#",
+      "JavaScript",
+      "Node.js",
+      "AWS",
+      "OpenCV"
+    ]
   }
 ]
