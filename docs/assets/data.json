@@ -121,5 +121,23 @@
       "OpenCV",
       "Python"
     ]
+  },
+  {
+    "id": "luketowersconsulting",
+    "name": "Luke Towers Consulting",
+    "website": "https://luketowers.ca/",
+    "industry": "Web development",
+    "address": "267B Magee Crescent\nRegina,SK.\nS4R 6K8",
+    "lat": 50.490612,
+    "lng": -104.635588,
+    "technology": [
+      "CSS",
+      "HTML",
+      "JavaScript",
+      "Laravel",
+      "OctoberCMS",
+      "PHP",
+      "WordPress"
+    ]
   }
 ]
