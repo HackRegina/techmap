@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/HackRegina/techmap.svg?branch=master)](https://travis-ci.org/HackRegina/techmap)
+
 # HackRegina Tech Map
 
 A map of Regina's tech companies and the technologies they use. 
