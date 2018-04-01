@@ -1,0 +1,5 @@
+<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+  <ng-container *ngFor="let d of companyService.companies">
+    <agm-marker [latitude]="d.lat" [longitude]="d.lng" [title]="d.name" (markerClick)="goto(d.id)"></agm-marker>
+  </ng-container>
+</agm-map>

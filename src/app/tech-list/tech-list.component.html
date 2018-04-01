@@ -1,0 +1,23 @@
+<div class="card-header">
+  <div class="row">
+    <div class="col-1">
+      <i class="fa fa-arrow-left" aria-hidden="true" [routerLink]="['/']"></i>
+    </div>
+    <div class="col-10">
+      Technologies <br/>
+      <small>{{companyService.companies.length}} companies</small>
+    </div>
+  </div>
+</div>
+<ul class="list-group list-group-flush">
+  <li *ngFor="let tech of techs" class="list-group-item  list-group-item-action" [routerLink]="['/tech', tech]">
+    <div class="row">
+      <div class="col-1">
+        <i class="fa fa-code" aria-hidden="true"></i>
+      </div>
+      <div class="col-10">
+        {{tech}}
+      </div>
+    </div>
+  </li>
+</ul>
