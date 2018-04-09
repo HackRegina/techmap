@@ -139,5 +139,29 @@
       "PHP",
       "WordPress"
     ]
+  },
+  {
+    "id": "shiverware",
+    "name": "Shiverware Mobile & IoT Solutions Inc.",
+    "website": "https://shiverware.com/",
+    "industry": "Mobile and IoT Consulting",
+    "address": "105A - 2 Research Drive\nRegina,SK.\nS4S 7H9",
+    "lat": 50.41533330000001,
+    "lng": -104.59035269999998,
+    "technology": [
+      "Android",
+      "Digital Signal Processing",
+      "HTML",
+      "iOS",
+      "JavaScript",
+      "Kotlin",
+      "Machine Learning",
+      "Objective-C",
+      "PHP",
+      "Swift",
+      "Wearables",
+      "WordPress",
+      "UI/UX"
+    ]
   }
 ]
