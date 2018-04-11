@@ -7,6 +7,7 @@
     "address": "300A - 2221 Cornwall Street\nRegina,SK.\nS4P 2L1",
     "lat": 50.443612,
     "lng": -104.611938,
+    "sponsorship": "platinum",
     "technology": [
       "Angular",
       "AngularJs",
@@ -148,6 +149,7 @@
     "address": "105A - 2 Research Drive\nRegina,SK.\nS4S 7H9",
     "lat": 50.41533330000001,
     "lng": -104.59035269999998,
+    "sponsorship": "bronze",
     "technology": [
       "Android",
       "Digital Signal Processing",
