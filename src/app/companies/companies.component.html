@@ -14,7 +14,7 @@
       [routerLink]="['/companies', company.id]">
     <div class="row">
       <div class="col-1">
-        <i class="fa fa-building-o" aria-hidden="true"></i>
+        <i class="text-{{company.sponsorship || dark}} fa" [ngClass]="{'fa-building-o': !company.sponsorship, 'fa-trophy': company.sponsorship }"  aria-hidden="true"></i>
       </div>
       <div class="col-10">
         {{company.name}}
