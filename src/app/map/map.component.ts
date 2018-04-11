@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core'
-import { CompanyService } from '../company.service'
 import { Router } from '@angular/router'
+import { CompanyService } from '../company.service'
+import { SponsorshipTiers } from '../sponsorship-tiers.enum'
 
 @Component({
   selector: 'app-map',
@@ -21,6 +22,10 @@ export class MapComponent implements OnInit {
 
   goto (id) {
     this.router.navigate(['/companies', id])
+  }
+
+  getZIndex(sponsorship) {
+    return SponsorshipTiers[sponsorship as string]
   }
 
 }

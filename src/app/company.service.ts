@@ -1,14 +1,7 @@
 import { Injectable } from '@angular/core'
 
 import * as data from '../assets/data.json'
-
-enum SponsorshipTierEnum {
-  undefined,
-  bronze,
-  silver,
-  gold,
-  platinum
-}
+import { SponsorshipTiers } from './sponsorship-tiers.enum'
 
 @Injectable()
 export class CompanyService {
@@ -47,6 +40,6 @@ export class CompanyService {
   }
 
   compareTiers(a, b) {
-    return SponsorshipTierEnum[b.sponsorship as string] - SponsorshipTierEnum[a.sponsorship as string]
+    return SponsorshipTiers[b.sponsorship as string] - SponsorshipTiers[a.sponsorship as string]
   }
 }
