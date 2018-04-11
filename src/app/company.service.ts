@@ -47,6 +47,6 @@ export class CompanyService {
   }
 
   compareTiers(a, b) {
-    return SponsorshipTierEnum[b.sponsorship] - SponsorshipTierEnum[a.sponsorship]
+    return SponsorshipTierEnum[b.sponsorship as string] - SponsorshipTierEnum[a.sponsorship as string]
   }
 }
