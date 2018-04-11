@@ -1,13 +1,12 @@
+<div class="list-group list-group-flush">
+  <a class="list-group-item list-group-item-action bg-light" [routerLink]="tech ? ['/tech', tech] : ['/companies']">
+    <i class="fa fa-arrow-left col-1" aria-hidden="true"></i>
+    <span class="col-10">Return</span>
+  </a>
+</div>
 <div class="card-header">
-  <div class="row">
-    <div class="col-1">
-      <i *ngIf="!tech" class="fa fa-arrow-left" aria-hidden="true" [routerLink]="['/companies']"></i>
-      <i *ngIf="tech" class="fa fa-arrow-left" aria-hidden="true" [routerLink]="['/tech', tech]"></i>
-    </div>
-    <div class="col-10">
-      <div class="font-weight-bold">{{companyService.companies[0].name}}</div>
-    </div>
-  </div>
+  <h6 class="mb-0">{{companyService.companies[0].name}}</h6>
+  <small>&nbsp;</small>
 </div>
 <div class="card-body">
   <div *ngIf="companyService.companies[0].sponsorship">

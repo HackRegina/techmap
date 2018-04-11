@@ -1,24 +1,18 @@
+<div class="list-group list-group-flush">
+  <a class="list-group-item list-group-item-action bg-light" [routerLink]="['/']">
+    <i class="fa fa-arrow-left col-1" aria-hidden="true"></i>
+    <span class="col-10">Return</span>
+  </a>
+</div>
 <div class="card-header">
-  <div class="row">
-    <div class="col-1">
-      <i class="fa fa-arrow-left" aria-hidden="true" [routerLink]="['/']"></i>
-    </div>
-    <div class="col-10">
-      <div>Companies</div>
-      <small>{{companyService.companies.length}} companies</small>
-    </div>
+  <h6 class="mb-0">Companies</h6>
+  <small>{{companyService.companies.length}} companies</small>
+</div>
+<div class="card-body p-0">
+  <div class="list-group list-group-flush">
+    <a *ngFor="let company of companyService.companies" class="list-group-item list-group-item-action" [routerLink]="['/companies',company.id]">
+      <i class="text-{{company.sponsorship || dark}} col-1 fa" [ngClass]="{'fa-building-o': !company.sponsorship, 'fa-trophy': company.sponsorship }"  aria-hidden="true"></i>
+      <span class="col-10">{{company.name}}</span>
+    </a>
   </div>
 </div>
-<ul class="list-group list-group-flush">
-  <li *ngFor="let company of companies" class="list-group-item list-group-item-action"
-      [routerLink]="['/companies', company.id]">
-    <div class="row">
-      <div class="col-1">
-        <i class="text-{{company.sponsorship || dark}} fa" [ngClass]="{'fa-building-o': !company.sponsorship, 'fa-trophy': company.sponsorship }"  aria-hidden="true"></i>
-      </div>
-      <div class="col-10">
-        {{company.name}}
-      </div>
-    </div>
-  </li>
-</ul>

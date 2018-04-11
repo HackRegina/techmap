@@ -1,23 +1,18 @@
+<div class="list-group list-group-flush">
+  <a class="list-group-item list-group-item-action bg-light" [routerLink]="['/']">
+    <i class="fa fa-arrow-left col-1" aria-hidden="true"></i>
+    <span class="col-10">Return</span>
+  </a>
+</div>
 <div class="card-header">
-  <div class="row">
-    <div class="col-1">
-      <i class="fa fa-arrow-left" aria-hidden="true" [routerLink]="['/']"></i>
-    </div>
-    <div class="col-10">
-      Technologies <br/>
-      <small>{{companyService.companies.length}} companies</small>
-    </div>
+  <h6 class="mb-0">Technologies</h6>
+  <small>{{companyService.companies.length}} companies</small>
+</div>
+<div class="card-body p-0">
+  <div class="list-group list-group-flush">
+    <a *ngFor="let tech of techs" class="list-group-item list-group-item-action" [routerLink]="['/tech', tech]">
+      <i class="fa fa-code col-1" aria-hidden="true"></i>
+      <span class="col-10">{{tech}}</span>
+    </a>
   </div>
 </div>
-<ul class="list-group list-group-flush">
-  <li *ngFor="let tech of techs" class="list-group-item  list-group-item-action" [routerLink]="['/tech', tech]">
-    <div class="row">
-      <div class="col-1">
-        <i class="fa fa-code" aria-hidden="true"></i>
-      </div>
-      <div class="col-10">
-        {{tech}}
-      </div>
-    </div>
-  </li>
-</ul>
