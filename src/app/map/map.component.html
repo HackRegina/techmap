@@ -1,5 +1,5 @@
 <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
   <ng-container *ngFor="let d of companyService.companies.reverse()">
-    <agm-marker [iconUrl]="d.sponsorship ? '/assets/icons/'+d.sponsorship+'.png' : undefined" [latitude]="d.lat" [longitude]="d.lng" [title]="d.name" (markerClick)="goto(d.id)"></agm-marker>
+    <agm-marker [iconUrl]="d.sponsorship ? './assets/icons/'+d.sponsorship+'.png' : undefined" [latitude]="d.lat" [longitude]="d.lng" [title]="d.name" (markerClick)="goto(d.id)"></agm-marker>
   </ng-container>
 </agm-map>
