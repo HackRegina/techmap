@@ -165,5 +165,32 @@
       "WordPress",
       "UI/UX"
     ]
+  },
+  {
+    "id": "gasbuddy",
+    "name": "GasBuddy",
+    "website": "https://gasbuddy.com/",
+    "address": "#260 - 10 Research Drive\nRegina,SK.\nS4S 7J7",
+    "lat": 50.4134883,
+    "lng": -104.5895543,
+    "sponsorship": "silver",
+    "technology": [
+      "Kotlin",
+      "Swift",
+      "Node JS",
+      "JavaScript",
+      "React",
+      "Python",
+      "Elasticsearch",
+      "AWS",
+      "Docker",
+      "Postgres",
+      "Kubernetes",
+      "Redis",
+      "R",
+      "Spark",
+      ".NET",
+      "C#"
+    ]
   }
 ]
