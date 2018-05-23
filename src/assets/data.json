@@ -107,7 +107,7 @@
   },
   {
     "id": "dot",
-    "name": "Dot Technology Corp.",
+    "name": "DOT Technology Corp.",
     "website": "https://www.seedotrun.com/",
     "industry": "Autonomous Agriculture",
     "address": "1 South Plains Road West\nEmerald Park,SK.\nS4L 1C6",
@@ -117,10 +117,15 @@
       "AWS",
       "C#",
       "C/C++",
+      "TypeScript",
       "JavaScript",
       "Node.js",
       "OpenCV",
-      "Python"
+      "Python",
+      "Elasticsearch",
+      "IoT",
+      "React",
+      "Serverless"
     ]
   },
   {
