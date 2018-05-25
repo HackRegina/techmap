@@ -29,3 +29,23 @@ Listings should be in the following format:
     ]
   }
 ```
+
+### For companies that are sponsoring HackRegina include the sponsorship tag and level below the "lng": value pair such as:
+```
+{
+    "id": "vivvo", 
+    "name": "Vivvo Application Studios", 
+    "website": "http://www.vivvo.com/",
+    "address": "300A - 2221 Cornwall Street, Regina, SK., S4P 2L1",
+    "lat": 50.443612,
+    "lng": -104.611938,
+    "sponsorship": "platinum",
+    "technology": [
+      "AngularJs",
+      "Angular",
+      "Java",
+      "Go",
+      "Node.js"
+    ]
+  }
+```
