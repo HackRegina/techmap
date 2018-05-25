@@ -204,8 +204,8 @@
     "website": "http://www.deliverr.ca",
     "industry": "Delivery",
     "address": "2151 Albert Street\nRegina,SK.\nS4P 2V1",
-    "lat": 50.4445698,
-    "lng": -104.6878199,
+    "lat": 50.444602,
+    "lng": -104.6178995,
     "technology": [
       "Laravel",
       "Android",
