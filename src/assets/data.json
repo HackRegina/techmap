@@ -113,6 +113,7 @@
     "address": "1 South Plains Road West\nEmerald Park,SK.\nS4L 1C6",
     "lat": 50.445638,
     "lng": -104.412405,
+    "sponsorship": "gold",
     "technology": [
       "AWS",
       "C#",
