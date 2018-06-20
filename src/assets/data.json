@@ -212,5 +212,19 @@
       "Android",
       "iOS"
     ]
+  },
+  {
+    "id": "Krugo", 
+    "name": "Krugo", 
+    "website": "http://krugotravel.com/",
+    "address": "603 - 1867 Hamilton St., Regina, SK., S4P 2C2",
+    "lat": 50.449041,
+    "lng": -104.608958,
+    "technology": [
+      "Swift",
+      "iOS",
+      "AWS",
+      "Node.js"
+    ]
   }
 ]
