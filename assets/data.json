@@ -214,8 +214,8 @@
     ]
   },
   {
-    "id": "Krugo", 
-    "name": "Krugo", 
+    "id": "Krugo",
+    "name": "Krugo",
     "website": "http://krugotravel.com/",
     "address": "603 - 1867 Hamilton St., Regina, SK., S4P 2C2",
     "lat": 50.449041,
@@ -225,6 +225,33 @@
       "iOS",
       "AWS",
       "Node.js"
+    ]
+  },
+  {
+    "id": "Alttra",
+    "name": "AlttraSolutions",
+    "website": "http://alttrasolutions.tech/",
+    "address": "120-10 RESEARCH DR REGINA SK   S4S 7J7",
+    "lat": 50.413084,
+    "lng": -104.589516,
+    "technology": [
+      "JavaScript",
+      "Node JS",
+      "React",
+      "Redux",
+      "Express.js",
+      "Truffle",
+      "Solidity",
+      "AWS",
+      "Python",
+      "Django",
+      "TensorFlow",
+      "Docker",
+      "Postgres",
+      "MongoDB",
+      "Redis",
+      "Celery"
+
     ]
   }
 ]
