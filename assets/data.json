@@ -44,7 +44,7 @@
     "lng": -104.6281632,
     "technology": [
       "Angular",
-      "Typescript",
+      "TypeScript",
       "Express.js",
       "Node.js",
       "AWS"
@@ -63,7 +63,7 @@
       "Azure",
       "SQL Server",
       "Node.js",
-      "Typescript"
+      "TypeScript"
     ]
   },
   {
@@ -79,10 +79,10 @@
       "Android",
       "Azure",
       "Java",
-      "MongoDb",
+      "MongoDB",
       "Node.js",
       "SQL Server",
-      "Typescript"
+      "TypeScript"
     ]
   },
   {
@@ -183,7 +183,7 @@
     "technology": [
       "Kotlin",
       "Swift",
-      "Node JS",
+      "Node.js",
       "JavaScript",
       "React",
       "Python",
