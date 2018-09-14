@@ -3,11 +3,7 @@
 
 $fa-font-path: "../node_modules/font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome.scss";
-
-$sponsor-platinum: #8ebfa8;
-$sponsor-gold: #daa520;
-$sponsor-silver: #808080;
-$sponsor-bronze: #cd7f32;
+@import "~variables.scss";
 
 html, body {
   width: 100%;

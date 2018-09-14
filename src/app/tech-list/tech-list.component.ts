@@ -15,7 +15,7 @@ export class TechListComponent implements OnInit {
 
   ngOnInit () {
     this.companyService.init()
-    this.techs = this.companyService.techs.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
+    this.techs = this.companyService.techs.sort((a,b) => a && b && a.percentage && b.percentage ? b.percentage - a.percentage : 0)
   }
 
 }
