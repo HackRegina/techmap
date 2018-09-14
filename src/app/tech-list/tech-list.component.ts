@@ -9,6 +9,7 @@ import { CompanyService } from '../company.service'
 export class TechListComponent implements OnInit {
 
   techs
+  hover: string
 
   constructor (public companyService: CompanyService) {
   }

@@ -10,11 +10,13 @@
 </div>
 <div class="card-body p-0">
   <div class="list-group list-group-flush">
-    <a *ngFor="let tech of techs" class="list-group-item list-group-item-action" [routerLink]="['/tech', tech.name]">
+    <a *ngFor="let tech of techs" class="list-group-item list-group-item-action" [routerLink]="['/tech', tech.name]" (mouseenter)="hover = tech.name"  (mouseleave)="hover = ''">
       <i class="fa fa-code col-1" aria-hidden="true"></i>
       <span class="col-10">{{tech.name}}</span>
-      <div class="progress" style="height: 4px;">
-        <div class="progress-bar" role="progressbar" [style.width]="tech.percentage + '%'" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="progress" [ngClass]="{'progress-thick': hover === tech.name}">
+        <div class="progress-bar" role="progressbar" [style.width]="tech.percentage + '%'" style.min-width="10%" aria-valuemin="0" aria-valuemax="100">
+          <span *ngIf="hover === tech.name">{{tech.percentage/100 | percent}}</span>
+        </div>
       </div>
     </a>
   </div>
