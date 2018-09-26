@@ -148,6 +148,28 @@
     ]
   },
   {
+    "id": "captive",
+    "name": "Captive Media Inc.",
+    "website": "http://captive.ca/",
+    "industry": "Marketing",
+    "address": "200 – 1118 Broad St.\nRegina, Saskatchewan\nS4R 1X8",
+    "lat": 50.4510474,
+    "lng": -104.6233122,
+    "technology": [
+      "CSS",
+      "HTML",
+      "JavaScript",
+      "Symfony",
+      "BoltCMS",
+      "ExpressionEngine",
+      "Node.js",
+      "CodeIgniter",
+      "Angular",
+      "OctoberCMS",
+      "PHP",
+    ]
+  },
+  {
     "id": "shiverware",
     "name": "Shiverware Mobile & IoT Solutions Inc.",
     "website": "https://shiverware.com/",
