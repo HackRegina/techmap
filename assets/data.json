@@ -313,5 +313,23 @@
 			"WebGL",
 			"Virtual Reality"
 		]
-	}
+	},
+	{
+    "id": "brewninja",
+    "name": "BrewNinja",
+    "website": "https://brewninja.net",
+    "address": "1440 Arthur St",
+    "lat": 50.456093,
+    "lng": -104.648473,
+    "technology": [
+			".NET",
+			"C#",
+			"React",
+			"MobX",
+			"JQuery",
+			"Kendo Grid",
+			"MS-SQL",
+			"Azure"
+    ]
+  }
 ]
