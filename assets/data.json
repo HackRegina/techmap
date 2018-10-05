@@ -293,5 +293,25 @@
 			"iOS",
 			"Azure"
 		]
+	},
+	{
+		"id": "melcher",
+		"name": "Melcher Studios",
+		"website": "http://www.melcher.ca/",
+		"address": "815 7th Ave #202\nRegina, SK\nS4N 0B3",
+		"lat": 50.458077,
+		"lng": -104.592657,
+		"technology": [
+			"HTML",
+			"CSS",
+			"JavaScript",
+			".NET",
+			"Unity3D",
+			"C#",
+			"PHP",
+			"SQL",
+			"WebGL",
+			"Virtual Reality"
+		]
 	}
 ]
