@@ -38,9 +38,9 @@
 		"name": "Offstreet Technology",
 		"website": "http://www.offstreet.ca/",
 		"industry": "Parking Software",
-		"address": "5 Asgar Walk\nRegina,SK.\nS4S 6W4",
-		"lat": 50.4036204,
-		"lng": -104.6281632,
+		"address": "2 Research Drive\nRegina,SK.\nS4S 7J7",
+		"lat": 50.415338, 
+		"lng": -104.590351,
 		"technology": [
 			"Angular",
 			"TypeScript",
