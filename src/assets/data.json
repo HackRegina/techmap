@@ -257,7 +257,7 @@
 		"lng": -104.589516,
 		"technology": [
 			"JavaScript",
-			"Node JS",
+			"Node.js",
 			"React",
 			"Redux",
 			"Express.js",
@@ -272,7 +272,6 @@
 			"MongoDB",
 			"Redis",
 			"Celery"
-
 		]
 	},
 	{
