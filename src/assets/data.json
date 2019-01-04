@@ -238,14 +238,18 @@
 		"id": "Krugo",
 		"name": "Krugo",
 		"website": "http://krugotravel.com/",
-		"address": "603 - 1867 Hamilton St.\nRegina, SK\nS4P 2C2",
-		"lat": 50.449041,
-		"lng": -104.608958,
+		"address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
+		"lat": 50.415232,
+		"lng": -104.590410,
 		"technology": [
 			"Swift",
 			"iOS",
+      "Kotlin",
+      "Android",
 			"AWS",
-			"Node.js"
+			"Node.js",
+      "Go",
+      "Angular"
 		]
 	},
 	{
