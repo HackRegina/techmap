@@ -334,5 +334,22 @@
 			"MS-SQL",
 			"Azure"
     ]
-  }
+  },
+  {
+		"id": "calltheshot",
+		"name": "Call The Shot",
+		"website": "https://www.calltheshot.io/",
+		"industry": "Sports Entertainment Software",
+		"address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
+		"lat": 50.415232,
+		"lng": -104.590410,
+		"technology": [
+			"React Native",
+			"MySQL",
+			"Koa.js",
+			"Node.js",
+			"AWS",
+      "Docker"
+		]
+	}
 ]
