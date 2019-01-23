@@ -319,11 +319,11 @@
 	},
 	{
     "id": "brewninja",
-    "name": "BrewNinja",
-    "website": "https://brewninja.net",
-    "address": "1440 Arthur St.\nRegina, SK\nS4T 4W1",
-    "lat": 50.456093,
-    "lng": -104.648473,
+    "name": "Brew Ninja",
+    "website": "https://www.brewninja.net",
+    "address": "2 Research Drive\nSuite 140\nRegina SK\nS4S 7H9",
+		"lat": 50.415232,
+		"lng": -104.590410,
     "technology": [
 			".NET",
 			"C#",
