@@ -351,5 +351,28 @@
 			"AWS",
       "Docker"
 		]
+  },
+  {
+		"id": "devfacto",
+    "name": "DevFacto Technologies Inc.",
+    "website": "https://www.devfacto.com",
+		"industry": "",
+		"address": "#201, Victoria Park Building\n1945 Scarth St\nRegina, SK\nS4P 2H1",
+		"lat": 50.4478917,
+    "lng": -104.6128621,
+    "sponsorship": "silver",
+		"technology": [
+			"Angular",
+      "AngularJs",
+      "React",
+      "C#",
+      ".NET",
+      "JavaScript",
+      "Power BI",
+      "SharePoint",
+      "Azure",
+      "iOS",
+      "Android"
+		]
 	}
 ]
