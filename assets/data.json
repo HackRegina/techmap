@@ -351,5 +351,22 @@
 			"AWS",
       "Docker"
 		]
-	}
+	},
+    {
+        "id": "agtfoods",
+        "name": "AGT Foods",
+        "website": "http://www.agtfoods.com/",
+        "address": "6200 E. Primrose Green Dr.\nRegina, SK\nS4V 3L7",
+        "lat": 50.4294729,
+        "lng": -104.4952769,
+        "technology": [
+            "PHP",
+            "Laravel",
+            "Node.js",
+            "Vue.js",
+            "Dynamics AX 2012",
+            "SQL",
+            "Azure"
+        ]
+    }
 ]
