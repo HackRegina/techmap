@@ -391,5 +391,20 @@
           "SQL",
           "Azure"
       ]
+	},
+{
+    "id": "stockdales",
+    "name": "Stockdales Electric Motor Corp.",
+    "website": "http://www.semc.ca/",
+    "address": "1441 Fleury St \nRegina, SK \nS4N 7N5",
+    "lat": 50.4564301,
+    "lng": -104.5777211,
+    "technology": [
+      "Archestra Intouch",
+      "MSSQL",
+			"Unity XL",
+			"Factory Talk",
+			"AutoCAD"
+    ]
   }
 ]
