@@ -322,8 +322,8 @@
     "name": "Brew Ninja",
     "website": "https://www.brewninja.net",
     "address": "2 Research Drive\nSuite 140\nRegina SK\nS4S 7H9",
-		"lat": 50.415232,
-		"lng": -104.590410,
+		"lat": 50.450432,
+		"lng": -104.6151168,
     "technology": [
 			".NET",
 			"C#",
