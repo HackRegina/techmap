@@ -36,7 +36,7 @@
     "industry": "Parking Software",
     "address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
     "lat": 50.415232,
-    "lng": -104.59041,
+    "lng": -104.590410,
     "technology": ["Angular", "TypeScript", "Express.js", "Node.js", "AWS"]
   },
   {
@@ -46,7 +46,7 @@
     "industry": "Wireless Retail Management Software",
     "address": "700 - 1801 Hamilton St.\nRegina, SK\nS4P 4B4",
     "lat": 50.450098,
-    "lng": -104.60909,
+    "lng": -104.609090,
     "technology": [".NET", "Azure", "SQL Server", "Node.js", "TypeScript"]
   },
   {
@@ -56,7 +56,7 @@
     "industry": "Cannabis Dispensary Retail Software",
     "address": "700 - 1801 Hamilton St.\nRegina, SK\nS4P 4B4",
     "lat": 50.450098,
-    "lng": -104.60909,
+    "lng": -104.609090,
     "technology": [
       ".NET",
       "Android",
@@ -74,7 +74,7 @@
     "website": "https://www.bitcutter.com/",
     "industry": "Game Development",
     "address": "1412 N Benjamin Cr.\nRegina, SK\nS4X 4L3",
-    "lat": 50.50102,
+    "lat": 50.501020,
     "lng": -104.663479,
     "technology": [
       "Unity",
@@ -220,7 +220,7 @@
     "website": "http://krugotravel.com/",
     "address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
     "lat": 50.415232,
-    "lng": -104.59041,
+    "lng": -104.590410,
     "technology": [
       "Swift",
       "iOS",
@@ -264,7 +264,7 @@
     "website": "https://oraforyou.com",
     "address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
     "lat": 50.415232,
-    "lng": -104.59041,
+    "lng": -104.590410,
     "technology": [
       "Python",
       "Flask",
@@ -303,7 +303,7 @@
     "website": "https://www.brewninja.net",
     "address": "2 Research Drive\nSuite 140\nRegina SK\nS4S 7H9",
     "lat": 50.415232,
-    "lng": -104.59041,
+    "lng": -104.590410,
     "technology": [
       ".NET",
       "C#",
@@ -322,7 +322,7 @@
     "industry": "Sports Entertainment Software",
     "address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
     "lat": 50.415232,
-    "lng": -104.59041,
+    "lng": -104.590410,
     "technology": [
       "React Native",
       "MySQL",
