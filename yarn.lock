@@ -3,8 +3,11 @@
 
 
 "@agm/core@^1.0.0-beta.2":
-  version "1.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@agm/core/-/core-1.0.0-beta.2.tgz#da15c0a5e86fe9e1178f14c36a3e0ffc14f9ad77"
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@agm/core/-/core-1.0.0.tgz#b2a77d18fbffe04cd5c90cf2ead41a5663f89862"
+  integrity sha512-tgrobTyAHCZ3cdi21IdiBafiHLxsC5/6ncq6+f9RV+HrLg0XDuk+DA7upfdE34o2Ui3fNRDYDIgExRVFLsSPCw==
+  dependencies:
+    tslib "^1.9.0"
 
 "@angular-devkit/architect@0.803.5":
   version "0.803.5"
@@ -835,6 +838,13 @@
     esutils "^2.0.2"
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
+
+"@ng-bootstrap/ng-bootstrap@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@ng-bootstrap/ng-bootstrap/-/ng-bootstrap-5.1.1.tgz#513d7e1e2ee3aca233e82b5dc934f48a0417a00b"
+  integrity sha512-k0OGMMxiEalrTo82XY3BNDg0pbJerrvsM79ey41sN6ex0QVMcR23211SAO9mekL8oQqqHcPw9mYN1YgC4jLEJA==
+  dependencies:
+    tslib "^1.9.0"
 
 "@ngtools/webpack@8.3.5":
   version "8.3.5"
