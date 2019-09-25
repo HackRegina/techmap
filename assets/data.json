@@ -1,368 +1,348 @@
-[{
-		"id": "vivvo",
-		"name": "Vivvo Application Studios",
-		"website": "http://www.vivvo.com/",
-		"industry": "",
-		"address": "300A - 2221 Cornwall St.\nRegina, SK\nS4P 2L1",
-		"lat": 50.443612,
-		"lng": -104.611938,
-		"sponsorship": "platinum",
-		"technology": [
-			"Angular",
-			"AngularJs",
-			"Consul",
-			"Docker",
-			"Go",
-			"Java",
-			"Node.js",
-			"Nomad",
-			"Terraform"
-		]
-	},
-	{
-		"id": "fcc",
-		"name": "Farm Credit Canada",
-		"industry": "",
-		"address": "1800 Hamilton St.\nRegina, SK\nS4P 4L3",
-		"lat": 50.4500274,
-		"lng": -104.6119856,
-		"technology": [
-			"Angular",
-			"AngularJs",
-			"Java",
-			"SAP"
-		]
-	},
-	{
-		"id": "offstreet",
-		"name": "Offstreet Technology",
-		"website": "http://www.offstreet.ca/",
-		"industry": "Parking Software",
-		"address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
-		"lat": 50.415232,
-		"lng": -104.590410,
-		"technology": [
-			"Angular",
-			"TypeScript",
-			"Express.js",
-			"Node.js",
-			"AWS"
-		]
-	},
-	{
-		"id": "iqmetrix",
-		"name": "iQmetrix",
-		"website": "http://www.iqmetrix.com/",
-		"industry": "Wireless Retail Management Software",
-		"address": "700 - 1801 Hamilton St.\nRegina, SK\nS4P 4B4",
-		"lat": 50.450098,
-		"lng": -104.609090,
-		"technology": [
-			".NET",
-			"Azure",
-			"SQL Server",
-			"Node.js",
-			"TypeScript"
-		]
-	},
-	{
-		"id": "covasoftware",
-		"name": "Cova Software",
-		"website": "http://www.covasoftware.com/",
-		"industry": "Cannabis Dispensary Retail Software",
-		"address": "700 - 1801 Hamilton St.\nRegina, SK\nS4P 4B4",
-		"lat": 50.450098,
-		"lng": -104.609090,
-		"technology": [
-			".NET",
-			"Android",
-			"Azure",
-			"Java",
-			"MongoDB",
-			"Node.js",
-			"SQL Server",
-			"TypeScript"
-		]
-	},
-	{
-		"id": "bitcutter",
-		"name": "BitCutter Studios",
-		"website": "https://www.bitcutter.com/",
-		"industry": "Game Development",
-		"address": "1412 N Benjamin Cr.\nRegina, SK\nS4X 4L3",
-		"lat": 50.501020,
-		"lng": -104.663479,
-		"technology": [
-			"Unity",
-			"Maya",
-			"Substance",
-			"C#",
-			"Node.js",
-			"Ruby",
-			"Ruby on Rails",
-			"Java",
-			"Adobe Suite"
-		]
-	},
-	{
-		"id": "dot",
-		"name": "DOT Technology Corp.",
-		"website": "https://www.seedotrun.com/",
-		"industry": "Autonomous Agriculture",
-		"address": "1 South Plains Road West\nEmerald Park, SK\nS4L 1C6",
-		"lat": 50.445638,
-		"lng": -104.412405,
-		"sponsorship": "gold",
-		"technology": [
-			"AWS",
-			"C#",
-			"C/C++",
-			"TypeScript",
-			"JavaScript",
-			"Node.js",
-			"OpenCV",
-			"Python",
-			"Elasticsearch",
-			"IoT",
-			"React",
-			"Serverless"
-		]
-	},
-	{
-		"id": "luketowersconsulting",
-		"name": "Luke Towers Consulting",
-		"website": "https://luketowers.ca/",
-		"industry": "Web development",
-		"address": "267B Magee Cr.\nRegina, SK\nS4R 6K8",
-		"lat": 50.490612,
-		"lng": -104.635588,
-		"technology": [
-			"CSS",
-			"HTML",
-			"JavaScript",
-			"Laravel",
-			"OctoberCMS",
-			"PHP",
-			"WordPress"
-		]
-	},
-	{
-		"id": "captive",
-		"name": "Captive Media Inc.",
-		"website": "http://captive.ca/",
-		"industry": "Marketing",
-		"address": "200 – 1118 Broad St.\nRegina, SK\nS4R 1X8",
-		"lat": 50.4510474,
-		"lng": -104.6233122,
-		"technology": [
-			"CSS",
-			"HTML",
-			"JavaScript",
-			"Symfony",
-			"BoltCMS",
-			"ExpressionEngine",
-			"Node.js",
-			"CodeIgniter",
-			"Angular",
-			"OctoberCMS",
-			"PHP"
-		]
-	},
-	{
-		"id": "shiverware",
-		"name": "Shiverware Mobile & IoT Solutions Inc.",
-		"website": "https://shiverware.com/",
-		"industry": "Mobile and IoT Consulting",
-		"address": "105A - 2 Research Dr.\nRegina, SK\nS4S 7H9",
-		"lat": 50.41533330000001,
-		"lng": -104.59035269999998,
-		"sponsorship": "bronze",
-		"technology": [
-			"Android",
-			"Digital Signal Processing",
-			"HTML",
-			"iOS",
-			"JavaScript",
-			"Kotlin",
-			"Machine Learning",
-			"Objective-C",
-			"PHP",
-			"Swift",
-			"Wearables",
-			"WordPress",
-			"UI/UX"
-		]
-	},
-	{
-		"id": "gasbuddy",
-		"name": "GasBuddy",
-		"website": "https://gasbuddy.com/",
-		"address": "#260 - 10 Research Dr.\nRegina, SK\nS4S 7J7",
-		"lat": 50.4134883,
-		"lng": -104.5895543,
-		"sponsorship": "silver",
-		"technology": [
-			"Kotlin",
-			"Swift",
-			"Node.js",
-			"JavaScript",
-			"React",
-			"Python",
-			"Elasticsearch",
-			"AWS",
-			"Docker",
-			"Postgres",
-			"Kubernetes",
-			"Redis",
-			"R",
-			"Spark",
-			".NET",
-			"C#"
-		]
-	},
-	{
-		"id": "Deliverr",
-		"name": "Deliverr.ca",
-		"website": "http://www.deliverr.ca",
-		"industry": "Delivery",
-		"address": "2151 Albert St.\nRegina, SK\nS4P 2V1",
-		"lat": 50.444602,
-		"lng": -104.6178995,
-		"technology": [
-			"Laravel",
-			"Android",
-			"iOS"
-		]
-	},
-	{
-		"id": "Krugo",
-		"name": "Krugo",
-		"website": "http://krugotravel.com/",
-		"address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
-		"lat": 50.415232,
-		"lng": -104.590410,
-		"technology": [
-			"Swift",
-			"iOS",
+[
+  {
+    "id": "vivvo",
+    "name": "Vivvo Application Studios",
+    "website": "http://www.vivvo.com/",
+    "industry": "",
+    "address": "300A - 2221 Cornwall St.\nRegina, SK\nS4P 2L1",
+    "lat": 50.443612,
+    "lng": -104.611938,
+    "sponsorship": "platinum",
+    "technology": [
+      "Angular",
+      "AngularJs",
+      "Consul",
+      "Docker",
+      "Go",
+      "Java",
+      "Node.js",
+      "Nomad",
+      "Terraform"
+    ]
+  },
+  {
+    "id": "fcc",
+    "name": "Farm Credit Canada",
+    "industry": "",
+    "address": "1800 Hamilton St.\nRegina, SK\nS4P 4L3",
+    "lat": 50.4500274,
+    "lng": -104.6119856,
+    "technology": ["Angular", "AngularJs", "Java", "SAP"]
+  },
+  {
+    "id": "offstreet",
+    "name": "Offstreet Technology",
+    "website": "http://www.offstreet.ca/",
+    "industry": "Parking Software",
+    "address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
+    "lat": 50.415232,
+    "lng": -104.590410,
+    "technology": ["Angular", "TypeScript", "Express.js", "Node.js", "AWS"]
+  },
+  {
+    "id": "iqmetrix",
+    "name": "iQmetrix",
+    "website": "http://www.iqmetrix.com/",
+    "industry": "Wireless Retail Management Software",
+    "address": "700 - 1801 Hamilton St.\nRegina, SK\nS4P 4B4",
+    "lat": 50.450098,
+    "lng": -104.609090,
+    "technology": [".NET", "Azure", "SQL Server", "Node.js", "TypeScript"]
+  },
+  {
+    "id": "covasoftware",
+    "name": "Cova Software",
+    "website": "http://www.covasoftware.com/",
+    "industry": "Cannabis Dispensary Retail Software",
+    "address": "700 - 1801 Hamilton St.\nRegina, SK\nS4P 4B4",
+    "lat": 50.450098,
+    "lng": -104.609090,
+    "technology": [
+      ".NET",
+      "Android",
+      "Azure",
+      "Java",
+      "MongoDB",
+      "Node.js",
+      "SQL Server",
+      "TypeScript"
+    ]
+  },
+  {
+    "id": "bitcutter",
+    "name": "BitCutter Studios",
+    "website": "https://www.bitcutter.com/",
+    "industry": "Game Development",
+    "address": "1412 N Benjamin Cr.\nRegina, SK\nS4X 4L3",
+    "lat": 50.501020,
+    "lng": -104.663479,
+    "technology": [
+      "Unity",
+      "Maya",
+      "Substance",
+      "C#",
+      "Node.js",
+      "Ruby",
+      "Ruby on Rails",
+      "Java",
+      "Adobe Suite"
+    ]
+  },
+  {
+    "id": "dot",
+    "name": "DOT Technology Corp.",
+    "website": "https://www.seedotrun.com/",
+    "industry": "Autonomous Agriculture",
+    "address": "1 South Plains Road West\nEmerald Park, SK\nS4L 1C6",
+    "lat": 50.445638,
+    "lng": -104.412405,
+    "sponsorship": "gold",
+    "technology": [
+      "AWS",
+      "C#",
+      "C/C++",
+      "TypeScript",
+      "JavaScript",
+      "Node.js",
+      "OpenCV",
+      "Python",
+      "Elasticsearch",
+      "IoT",
+      "React",
+      "Serverless"
+    ]
+  },
+  {
+    "id": "luketowersconsulting",
+    "name": "Luke Towers Consulting",
+    "website": "https://luketowers.ca/",
+    "industry": "Web development",
+    "address": "267B Magee Cr.\nRegina, SK\nS4R 6K8",
+    "lat": 50.490612,
+    "lng": -104.635588,
+    "technology": [
+      "CSS",
+      "HTML",
+      "JavaScript",
+      "Laravel",
+      "OctoberCMS",
+      "PHP",
+      "WordPress"
+    ]
+  },
+  {
+    "id": "captive",
+    "name": "Captive Media Inc.",
+    "website": "http://captive.ca/",
+    "industry": "Marketing",
+    "address": "200 – 1118 Broad St.\nRegina, SK\nS4R 1X8",
+    "lat": 50.4510474,
+    "lng": -104.6233122,
+    "technology": [
+      "CSS",
+      "HTML",
+      "JavaScript",
+      "Symfony",
+      "BoltCMS",
+      "ExpressionEngine",
+      "Node.js",
+      "CodeIgniter",
+      "Angular",
+      "OctoberCMS",
+      "PHP"
+    ]
+  },
+  {
+    "id": "shiverware",
+    "name": "Shiverware Mobile & IoT Solutions Inc.",
+    "website": "https://shiverware.com/",
+    "industry": "Mobile and IoT Consulting",
+    "address": "105A - 2 Research Dr.\nRegina, SK\nS4S 7H9",
+    "lat": 50.41533330000001,
+    "lng": -104.59035269999998,
+    "sponsorship": "bronze",
+    "technology": [
+      "Android",
+      "Digital Signal Processing",
+      "HTML",
+      "iOS",
+      "JavaScript",
+      "Kotlin",
+      "Machine Learning",
+      "Objective-C",
+      "PHP",
+      "Swift",
+      "Wearables",
+      "WordPress",
+      "UI/UX"
+    ]
+  },
+  {
+    "id": "gasbuddy",
+    "name": "GasBuddy",
+    "website": "https://gasbuddy.com/",
+    "address": "#260 - 10 Research Dr.\nRegina, SK\nS4S 7J7",
+    "lat": 50.4134883,
+    "lng": -104.5895543,
+    "sponsorship": "silver",
+    "technology": [
+      "Kotlin",
+      "Swift",
+      "Node.js",
+      "JavaScript",
+      "React",
+      "Python",
+      "Elasticsearch",
+      "AWS",
+      "Docker",
+      "Postgres",
+      "Kubernetes",
+      "Redis",
+      "R",
+      "Spark",
+      ".NET",
+      "C#"
+    ]
+  },
+  {
+    "id": "Deliverr",
+    "name": "Deliverr.ca",
+    "website": "http://www.deliverr.ca",
+    "industry": "Delivery",
+    "address": "2151 Albert St.\nRegina, SK\nS4P 2V1",
+    "lat": 50.444602,
+    "lng": -104.6178995,
+    "technology": ["Laravel", "Android", "iOS"]
+  },
+  {
+    "id": "Krugo",
+    "name": "Krugo",
+    "website": "http://krugotravel.com/",
+    "address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
+    "lat": 50.415232,
+    "lng": -104.590410,
+    "technology": [
+      "Swift",
+      "iOS",
       "Kotlin",
       "Android",
-			"AWS",
-			"Node.js",
+      "AWS",
+      "Node.js",
       "Go",
       "Angular"
-		]
-	},
-	{
-		"id": "Alttra",
-		"name": "AlttraSolutions",
-		"website": "http://alttrasolutions.tech/",
-		"address": "120-10 Reasearch Dr.\nRegina, SK\nS4S 7J7",
-		"lat": 50.413084,
-		"lng": -104.589516,
-		"technology": [
-			"JavaScript",
-			"Node.js",
-			"React",
-			"Redux",
-			"Express.js",
-			"Truffle",
-			"Solidity",
-			"AWS",
-			"Python",
-			"Django",
-			"TensorFlow",
-			"Docker",
-			"Postgres",
-			"MongoDB",
-			"Redis",
-			"Celery"
-		]
-	},
-	{
-		"id": "ORA",
-		"name": "ORA",
-		"website": "https://oraforyou.com",
-		"address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
-		"lat": 50.415232,
-		"lng": -104.590410,
-		"technology": [
-			"Python",
-			"Flask",
-			"MongoDB",
-			"Docker",
-			"Redis",
-			"Celery",
-			"Android",
-			"iOS",
-			"Azure"
-		]
-	},
-	{
-		"id": "melcher",
-		"name": "Melcher Studios",
-		"website": "http://www.melcher.ca/",
-		"address": "815 7th Ave #202\nRegina, SK\nS4N 0B3",
-		"lat": 50.458077,
-		"lng": -104.592657,
-		"technology": [
-			"HTML",
-			"CSS",
-			"JavaScript",
-			".NET",
-			"Unity3D",
-			"C#",
-			"PHP",
-			"SQL",
-			"WebGL",
-			"Virtual Reality"
-		]
-	},
-	{
+    ]
+  },
+  {
+    "id": "Alttra",
+    "name": "AlttraSolutions",
+    "website": "http://alttrasolutions.tech/",
+    "address": "120-10 Reasearch Dr.\nRegina, SK\nS4S 7J7",
+    "lat": 50.413084,
+    "lng": -104.589516,
+    "technology": [
+      "JavaScript",
+      "Node.js",
+      "React",
+      "Redux",
+      "Express.js",
+      "Truffle",
+      "Solidity",
+      "AWS",
+      "Python",
+      "Django",
+      "TensorFlow",
+      "Docker",
+      "Postgres",
+      "MongoDB",
+      "Redis",
+      "Celery"
+    ]
+  },
+  {
+    "id": "ORA",
+    "name": "ORA",
+    "website": "https://oraforyou.com",
+    "address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
+    "lat": 50.415232,
+    "lng": -104.590410,
+    "technology": [
+      "Python",
+      "Flask",
+      "MongoDB",
+      "Docker",
+      "Redis",
+      "Celery",
+      "Android",
+      "iOS",
+      "Azure"
+    ]
+  },
+  {
+    "id": "melcher",
+    "name": "Melcher Studios",
+    "website": "http://www.melcher.ca/",
+    "address": "815 7th Ave #202\nRegina, SK\nS4N 0B3",
+    "lat": 50.458077,
+    "lng": -104.592657,
+    "technology": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      ".NET",
+      "Unity3D",
+      "C#",
+      "PHP",
+      "SQL",
+      "WebGL",
+      "Virtual Reality"
+    ]
+  },
+  {
     "id": "brewninja",
     "name": "Brew Ninja",
     "website": "https://www.brewninja.net",
     "address": "2 Research Drive\nSuite 140\nRegina SK\nS4S 7H9",
-		"lat": 50.415232,
-		"lng": -104.590410,
+    "lat": 50.415232,
+    "lng": -104.590410,
     "technology": [
-			".NET",
-			"C#",
-			"React",
-			"MobX",
-			"JQuery",
-			"Kendo Grid",
-			"MS-SQL",
-			"Azure"
+      ".NET",
+      "C#",
+      "React",
+      "MobX",
+      "JQuery",
+      "Kendo Grid",
+      "MS-SQL",
+      "Azure"
     ]
   },
   {
-		"id": "calltheshot",
-		"name": "Call The Shot",
-		"website": "https://www.calltheshot.io/",
-		"industry": "Sports Entertainment Software",
-		"address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
-		"lat": 50.415232,
-		"lng": -104.590410,
-		"technology": [
-			"React Native",
-			"MySQL",
-			"Koa.js",
-			"Node.js",
-			"AWS",
+    "id": "calltheshot",
+    "name": "Call The Shot",
+    "website": "https://www.calltheshot.io/",
+    "industry": "Sports Entertainment Software",
+    "address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
+    "lat": 50.415232,
+    "lng": -104.590410,
+    "technology": [
+      "React Native",
+      "MySQL",
+      "Koa.js",
+      "Node.js",
+      "AWS",
       "Docker"
-		]
+    ]
   },
   {
-		"id": "devfacto",
+    "id": "devfacto",
     "name": "DevFacto Technologies Inc.",
     "website": "https://www.devfacto.com",
-		"industry": "",
-		"address": "#201, Victoria Park Building\n1945 Scarth St\nRegina, SK\nS4P 2H1",
-		"lat": 50.4478917,
+    "industry": "",
+    "address": "#201, Victoria Park Building\n1945 Scarth St\nRegina, SK\nS4P 2H1",
+    "lat": 50.4478917,
     "lng": -104.6128621,
     "sponsorship": "silver",
-		"technology": [
-			"Angular",
+    "technology": [
+      "Angular",
       "AngularJs",
       "React",
       "C#",
@@ -373,26 +353,26 @@
       "Azure",
       "iOS",
       "Android"
-		]
-	},
+    ]
+  },
   {
-      "id": "agtfoods",
-      "name": "AGT Foods",
-      "website": "http://www.agtfoods.com/",
-      "address": "6200 E. Primrose Green Dr.\nRegina, SK\nS4V 3L7",
-      "lat": 50.4294729,
-      "lng": -104.4952769,
-      "technology": [
-          "PHP",
-          "Laravel",
-          "Node.js",
-          "Vue.js",
-          "Dynamics AX 2012",
-          "SQL",
-          "Azure"
-      ]
-	},
-{
+    "id": "agtfoods",
+    "name": "AGT Foods",
+    "website": "http://www.agtfoods.com/",
+    "address": "6200 E. Primrose Green Dr.\nRegina, SK\nS4V 3L7",
+    "lat": 50.4294729,
+    "lng": -104.4952769,
+    "technology": [
+      "PHP",
+      "Laravel",
+      "Node.js",
+      "Vue.js",
+      "Dynamics AX 2012",
+      "SQL",
+      "Azure"
+    ]
+  },
+  {
     "id": "stockdales",
     "name": "Stockdales Electric Motor Corp.",
     "website": "http://www.semc.ca/",
@@ -402,9 +382,40 @@
     "technology": [
       "Archestra Intouch",
       "MSSQL",
-			"Unity XL",
-			"Factory Talk",
-			"AutoCAD"
+      "Unity XL",
+      "Factory Talk",
+      "AutoCAD"
+    ]
+  },
+  {
+    "id": "saskpower",
+    "name": "SaskPower Enterprise Mobility",
+    "website": "https://jobs.saskpower.com/search/",
+    "address": "2025 Victoria Ave\nRegina, SK\nS4P 0S1",
+    "lat": 50.446935,
+    "lng": -104.610114,
+    "technology": [
+      "JavaScript",
+      "JQuery",
+      "TypeScript",
+      "Angular",
+      "Node.js",
+      "NestJS",
+      "Docker",
+      "Ionic",
+      "Cordova",
+      "Capactior",
+      "Electron",
+      "Objective-C",
+      "Swift",
+      "iOS",
+      "Java",
+      "Kotlin",
+      "Android",
+      "SAP Fiori",
+      "SQL",
+      "AWS",
+      "Azure"
     ]
   }
 ]
