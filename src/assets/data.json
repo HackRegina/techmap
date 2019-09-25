@@ -58,12 +58,17 @@
 		"lat": 50.450098,
 		"lng": -104.609090,
 		"technology": [
-			".NET",
+			".NET Framework",
+			".NET Core",
+      "C#",
 			"Azure",
 			"SQL Server",
 			"Node.js",
-			"TypeScript"
-		]
+			"TypeScript",
+      "React",
+      "React Native",
+      "iOS"
+    ]
 	},
 	{
 		"id": "covasoftware",
