@@ -26,14 +26,13 @@
     "bootstrap": "~4.3.1",
     "core-js": "^2.4.1",
     "font-awesome": "4.7.0",
-    "font-awesome-webpack": "0.0.5-beta.2",
     "jquery": "^3.3.1",
     "less": "^2.3.1",
     "popper.js": "^1.14.4",
     "rxjs": "^6.5.3",
+    "rxjs-compat": "^6.0.0-rc.0",
     "tslib": "^1.10.0",
-    "zone.js": "~0.9.1",
-    "rxjs-compat": "^6.0.0-rc.0"
+    "zone.js": "~0.9.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.5",
@@ -46,13 +45,13 @@
     "codelyzer": "^5.0.1",
     "jasmine-core": "~2.6.2",
     "jasmine-spec-reporter": "~4.1.0",
-    "karma": "~1.7.0",
+    "karma": "^4.3.0",
     "karma-chrome-launcher": "~2.1.1",
     "karma-cli": "~1.0.1",
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
-    "protractor": "~5.1.2",
+    "protractor": "^6.0.0",
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
     "typescript": "~3.5.3"
