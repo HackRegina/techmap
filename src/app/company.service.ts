@@ -10,7 +10,7 @@ export class CompanyService {
   techs
 
   constructor() {
-    this.companies = data
+    this.companies = data.default || []
     this.companies.sort((a, b) => this.sortCompanies(a, b))
 
     // this.techs = Array.from(this.companies.reduce((acc, curr) => {
@@ -27,12 +27,12 @@ export class CompanyService {
   }
 
   filterByTech(tech) {
-    this.companies = data
+    this.companies = data.default || []
     this.companies = this.companies.filter(company => company.technology.includes(tech)).sort((a, b) => this.sortCompanies(a, b))
   }
 
   init() {
-    this.companies = data
+    this.companies = data.default || []
     this.companies.sort((a, b) => this.sortCompanies(a, b))
   }
 
