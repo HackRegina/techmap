@@ -417,5 +417,15 @@
       "AWS",
       "Azure"
     ]
+  },
+  {
+    "id": "toolshed",
+    "name": "Toolshed",
+    "website": "http://www.toolshed.io/",
+    "industry": "Rental Marketplace",
+    "address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
+    "lat": 50.415232,
+    "lng": -104.590410,
+    "technology": ["Angular", "TypeScript", "Express.js", "NestJS", "Node.js", "AWS"]
   }
 ]
