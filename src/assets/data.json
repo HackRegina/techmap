@@ -259,25 +259,6 @@
     ]
   },
   {
-    "id": "ORA",
-    "name": "ORA",
-    "website": "https://oraforyou.com",
-    "address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
-    "lat": 50.415232,
-    "lng": -104.590410,
-    "technology": [
-      "Python",
-      "Flask",
-      "MongoDB",
-      "Docker",
-      "Redis",
-      "Celery",
-      "Android",
-      "iOS",
-      "Azure"
-    ]
-  },
-  {
     "id": "SolusGuard",
     "name": "SolusGuard",
     "website": "https://solusguard.com",
