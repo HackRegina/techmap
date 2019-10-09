@@ -259,25 +259,6 @@
     ]
   },
   {
-    "id": "ORA",
-    "name": "ORA",
-    "website": "https://oraforyou.com",
-    "address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
-    "lat": 50.415232,
-    "lng": -104.590410,
-    "technology": [
-      "Python",
-      "Flask",
-      "MongoDB",
-      "Docker",
-      "Redis",
-      "Celery",
-      "Android",
-      "iOS",
-      "Azure"
-    ]
-  },
-  {
     "id": "melcher",
     "name": "Melcher Studios",
     "website": "http://www.melcher.ca/",
@@ -416,6 +397,27 @@
       "SQL",
       "AWS",
       "Azure"
+    ]
+  },
+  {
+    "id": "solusguard",
+    "name": "SolusGuard",
+    "website": "https://www.solusguard.com",
+    "address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
+    "lat": 50.415232,
+    "lng": -104.590410,
+    "technology": [
+      "Python",
+      "Objective-C/Swift",
+      "Kotlin/Java",
+      "Flask",
+      "MongoDB",
+      "Docker",
+      "Redis",
+      "Celery",
+      "Android",
+      "iOS",
+      "AWS"
     ]
   },
   {
