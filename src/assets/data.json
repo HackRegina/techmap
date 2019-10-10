@@ -429,5 +429,15 @@
     "lat": 50.415232,
     "lng": -104.590410,
     "technology": ["Angular", "TypeScript", "Express.js", "NestJS", "Node.js", "AWS"]
+  },
+  {
+    "id": "fourandahalfgiraffes",
+    "name": "Four And A Half Giraffes, Ltd.",
+    "website": "https://fourandahalfgiraffes.ca",
+    "industry": "Software Development Consulting",
+    "address": "3930 Rae Street, Suite 3\nRegina, SK\nS4S 3A2",
+    "lat": 50.431866,
+    "lng": -104.621048,
+    "technology": ["React", "React Native", "Express.js", "Node.js", "Docker", "AWS", "Google Cloud", "Objective-C/Swift", "Android", "Java", "JavaScript", "Raspberry Pi", "AngularJs", "Electron", "Go", "Laravel", "MySQL", "MongoDB", "PHP", "MobX", "Serverless", "Spark", "Spring Boot"]
   }
 ]
