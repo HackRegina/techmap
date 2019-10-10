@@ -439,5 +439,15 @@
     "lat": 50.431866,
     "lng": -104.621048,
     "technology": ["React", "React Native", "Express.js", "Node.js", "Docker", "AWS", "Google Cloud", "Objective-C/Swift", "Android", "Java", "JavaScript", "Raspberry Pi", "AngularJs", "Electron", "Go", "Laravel", "MySQL", "MongoDB", "PHP", "MobX", "Serverless", "Spark", "Spring Boot"]
+  },
+  {
+    "id": "Hoolima",
+    "name": "Hoolima Software",
+    "website": "https://hoolima.com",
+    "industry": "Property Rentals",
+    "address": "2 Research Drive\nSuite 140\nRegina SK\nS4S 7H9",
+    "lat": 50.415183,
+    "lng": -104.589848,
+    "technology": ["React", "React Native", "Postgres", "AWS", "Express.js", "Docker"]
   }
 ]
