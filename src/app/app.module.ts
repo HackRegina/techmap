@@ -29,9 +29,9 @@ import { CompaniesComponent } from './companies/companies.component'
   ],
   imports: [
     BrowserModule,
-    NgbModule.forRoot(),
+    NgbModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCs-qU03I53l6ApyEB7c7MXzm06SGr2SHU'
+      apiKey: 'AIzaSyDqI3d8iyamjWvFSSGn1XlhTCxTBl6TBrk'
     }),
     RouterModule.forRoot([
       {path: '', component: FilterByComponent},
