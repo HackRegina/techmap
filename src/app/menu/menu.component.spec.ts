@@ -1,22 +1,23 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { FilterByComponent } from './filter-by.component';
 import { RouterTestingModule } from '@angular/router/testing';
+import { CompanyService } from '../company.service';
+import { MenuComponent } from './menu.component';
 
-describe('FilterByComponent', () => {
-  let component: FilterByComponent;
-  let fixture: ComponentFixture<FilterByComponent>;
+describe('MenuComponent', () => {
+  let component: MenuComponent;
+  let fixture: ComponentFixture<MenuComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [RouterTestingModule.withRoutes([])],
-      declarations: [ FilterByComponent ]
+      declarations: [ MenuComponent ],
+      providers: [CompanyService]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FilterByComponent);
+    fixture = TestBed.createComponent(MenuComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

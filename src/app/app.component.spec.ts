@@ -1,27 +1,30 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { MapComponent } from './map/map.component';
+import { MenuComponent } from './menu/menu.component';
+import { AgmCoreModule } from '@agm/core';
+import { RouterTestingModule } from '@angular/router/testing';
+import { CompanyService } from './company.service';
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        MapComponent,
+        MenuComponent,
       ],
+      imports: [
+        RouterTestingModule.withRoutes([]),
+        AgmCoreModule.forRoot({
+          apiKey: 'AIzaSyDqI3d8iyamjWvFSSGn1XlhTCxTBl6TBrk'
+        })
+      ],
+      providers: [CompanyService]
     }).compileComponents();
   }));
   it('should create the app', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
-  }));
-  it(`should have as title 'app'`, async(() => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('app');
-  }));
-  it('should render title in a h1 tag', async(() => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to app!');
   }));
 });
