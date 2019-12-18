@@ -1,11 +1,21 @@
-language: node_js
+dist: trusty
+sudo: false
 
+language: node_js
 node_js:
    - node # will use latest node
+
+addons:
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-stable
 
 cache: yarn
 
 script: # the build step
+   - yarn run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
    - yarn run deploy
 
 notifications:
