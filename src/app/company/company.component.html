@@ -5,28 +5,28 @@
   </a>
 </div>
 <div class="card-header">
-  <h6 class="mb-0">{{companyService.companies[0].name}}</h6>
+  <h6 class="mb-0">{{companyService?.companies[0]?.name}}</h6>
   <small>&nbsp;</small>
 </div>
 <div class="card-body">
-  <div *ngIf="companyService.companies[0].sponsorship">
+  <div *ngIf="companyService?.companies[0]?.sponsorship">
     <p class="font-weight-bold">Sponsorship Tier:</p>
-    <p>{{companyService.companies[0].sponsorship | titlecase}} Sponsor</p>
+    <p>{{companyService?.companies[0]?.sponsorship | titlecase}} Sponsor</p>
   </div>
   <div class="my-3">
     <p class="font-weight-bold">Address:</p>
-    <p>{{companyService.companies[0].address}}</p>
+    <p>{{companyService?.companies[0]?.address}}</p>
   </div>
   <div class="my-3">
     <p class="font-weight-bold">Website:</p>
-    <p><a [href]="companyService.companies[0].website">{{companyService.companies[0].website}}</a></p>
+    <p><a [href]="companyService?.companies[0]?.website">{{companyService.companies[0]?.website}}</a></p>
   </div>
   <div class="row mt-3">
     <div class="col-12 font-weight-bold">
       Tech:
     </div>
     <div class="col-12 mt-3">
-      <button *ngFor="let tech of companyService.companies[0].technology" type="button"
+      <button *ngFor="let tech of companyService?.companies[0]?.technology" type="button"
               class="btn btn-outline-info mr-3 mb-3" [routerLink]="['/tech',tech]">
         {{tech}}
       </button>

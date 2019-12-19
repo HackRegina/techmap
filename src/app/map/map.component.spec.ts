@@ -1,24 +1,29 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { CompaniesByTechComponent } from './companies-by-tech.component';
 import { RouterTestingModule } from '@angular/router/testing';
 import { CompanyService } from '../company.service';
+import { MapComponent } from './map.component';
+import { AgmCoreModule } from '@agm/core';
 
-describe('CompaniesByTechComponent', () => {
-  let component: CompaniesByTechComponent;
-  let fixture: ComponentFixture<CompaniesByTechComponent>;
+describe('MapComponent', () => {
+  let component: MapComponent;
+  let fixture: ComponentFixture<MapComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [RouterTestingModule.withRoutes([])],
-      declarations: [ CompaniesByTechComponent ],
+      imports: [
+        RouterTestingModule.withRoutes([]),
+        AgmCoreModule.forRoot({
+          apiKey: 'AIzaSyDqI3d8iyamjWvFSSGn1XlhTCxTBl6TBrk'
+        })
+      ],
+      declarations: [ MapComponent ],
       providers: [CompanyService]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CompaniesByTechComponent);
+    fixture = TestBed.createComponent(MapComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

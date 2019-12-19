@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CompanyComponent } from './company.component';
+import { RouterTestingModule } from '@angular/router/testing';
+import { CompanyService } from '../company.service';
 
 describe('CompanyComponent', () => {
   let component: CompanyComponent;
@@ -8,7 +10,9 @@ describe('CompanyComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CompanyComponent ]
+      imports: [RouterTestingModule.withRoutes([])],
+      declarations: [ CompanyComponent ],
+      providers: [CompanyService]
     })
     .compileComponents();
   }));
