@@ -515,5 +515,21 @@
       "Node.js",
       "AWS"
     ]
+  },
+    {
+    "id": "citrus",
+    "name": "Citrus",
+    "website": "http://citrus.tech/",
+    "industry": "Software development - other",
+    "address": "140 - 2 Research Dr.\nRegina, SK\nS4S 7H9",
+    "lat": 50.415232,
+    "lng": -104.590410,
+    "technology": [
+      "React.js",
+      "React Native",
+      "Node.js",
+      "Firebase",
+      "Google Cloud Platform"
+    ]
   }
 ]
